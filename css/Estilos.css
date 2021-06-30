@@ -1,0 +1,208 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-size: 16px;
+	font-family: Arial, Helvetica;
+	line-height: 1.4em;
+	color: white;
+	background: #fff;
+}
+h2{
+	padding: 20px;
+	color: black;
+}
+/*-------------------------------------
+Anchura del sitio
+------------------------------------*/
+.contenedor{
+	width: 980px;
+	margin: 0 auto;
+
+}
+/*-------------------------------------
+Encabezado
+------------------------------------*/
+.encabezado{
+	background: #09162c;
+	overflow: hidden;
+	/*box-shadow: 0 0 20px 0 #070707;*/
+	position: relative;
+}
+.logo{
+	float: left;
+	position: relative;
+	top: 2.5px;
+}
+.encabezado nav{
+	float: right;
+}
+
+.encabezado nav ul{
+	list-style: none;
+	padding: 0px;
+	margin:0px; 
+}
+.encabezado nav ul li{
+	display: inline-block; 
+	margin-right: -4px;
+}
+.encabezado nav ul li a{
+	color: white;
+	display: block; 
+	margin-right: -4px;
+	padding: 34px;
+	border-left: 2px solid #717985;
+	text-decoration: none;
+}
+.encabezado nav ul li a:hover{
+	background: #1D0D6C;
+}
+#Elegido{
+	background: #1D0D6C;;
+}
+/*-------------------------------------
+Presentacion
+------------------------------------*/
+.presentacion{
+	display: block;
+	border-top: 2px solid #717985;
+	background:  #FABD00;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+.presentacion h1{
+	padding: 20px;
+	text-shadow: 1px 1px 0 #000; /*Sombra texto*/
+}
+.presentacion span{
+	display: inline-block;
+	font-size: 20px;
+	border:2px solid #717985;
+	padding: 20px 20px;
+	background: #EABE3F;
+	text-align: center;
+	text-shadow: 1px 1px 0 #000; /*Sombra texto*/
+}
+.presentacion img{
+	float: right;
+	position: relative;
+	bottom: 60px;
+}
+
+/*----------------------------------------------
+Acceso rapido
+------------------------------------------------*/
+.acceso-rapido{
+	/*background: #0e294b;*/
+	border-top: 2px solid #717985;
+	/*text-shadow: 1px 1px 0 #0f4bfd;*/ /*Sombra texto*/
+}
+
+.acceso-rapido figure{
+	display: inline-block;
+	text-align: center;
+}
+.acceso-rapido figure.contactanos{
+	margin: 0 0 0 22.5%;
+}
+.acceso-rapido a{
+	color: black;
+}
+.acceso-rapido h3 a:hover{
+	text-decoration: none;
+	color: #FABD00;
+}
+.acceso-rapido>.contenedor{
+	padding-bottom: 50px;
+	border-bottom: 2px solid #717985;
+}
+/*----------------------------------------------
+Contenido
+------------------------------------------------*/
+.bloque-contenido{
+	overflow: hidden;
+	color: black;
+	margin-top: 25px;
+}
+.bloque-contenido .contenedor{
+	display: table;
+}
+.bloque-contenido main h2{
+	padding: 0;
+	border-bottom: 2px solid #0e294b;
+	padding-bottom: 15px;
+	font-size: 30px;
+}
+.bloque-contenido main {
+	display: table-cell;
+	width: 60%;
+	padding-right:30px;
+}
+/*Contenido complementario*/
+.bloque-contenido aside{
+	padding-left: 20px;
+	display: table-cell;
+	background: #FFBF00;
+	width: 40%;
+	text-decoration:none;
+	color: white;
+	text-shadow: 1px 1px 0 #000; 
+}
+.bloque-contenido aside h2{
+	padding: 0 20px 0 0;
+}
+
+/*----------------------------------------------
+Pie de pagina
+------------------------------------------------*/
+.piepagina{
+	background:#09162c;
+	padding: 25px 0;
+}
+.piepagina .contenedor{
+	display: table;
+}
+.piepagina small{
+	display: table-cell;
+}
+.piepagina nav{
+	display: table-cell;
+	text-align: right;
+}
+.piepagina nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.piepagina nav li{
+	display: inline-block;
+}
+.piepagina nav li a{
+	margin-left: 15px;
+	text-decoration: none;
+	font-size: 13px;
+	color: white;
+}
+.piepagina nav li a:hover{
+	text-decoration: underline;
+}
+/*----------------------------------------------
+Redes sociales
+------------------------------------------------*/
+.social{
+	position: fixed;
+	bottom:  10%;
+	left: 2px;
+}
+.social a{
+	display: block;
+	margin-bottom: 4px;
+	opacity: 0.6;
+}
+.social img{
+	border-radius: 25%;
+}
+.social a:hover{
+	opacity: 1;
+}

@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    /*font-family: 'Arial',sans-serif;*/
+    font-size: 16px;
+    background: #f2f2f2;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+h2{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 25px;
+    /* font-family: 'Arial', sans-serif; */
+    font-weight: bold;
+    color: #09162c;
+}
+
+h3{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 20px;
+    /* font-family: 'Arial', sans-serif; */
+    font-weight: bold;
+    color: #555;
+}
+
+.barra__buscador{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow: hidden;
+}
+
+form .input__text{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #000;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 35px;
+    padding: 10px 15px;
+    max-width: 30%;
+    margin-right: 10px;
+    outline: medium none;
+}
+
+
+form .input__text:focus{
+    border: 1px solid #006b9f;
+}
+
+form .form-group{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#User_Guardar{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: right;
+    margin-right: 2%;
+}
+
+form .form-group>span{
+    text-align: center;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #848688;
+    display: block;
+    margin-bottom: 35px;
+    padding: 10px 15px;
+    max-width: 30%;
+    margin-right: 10px;
+    outline: medium none;
+    max-width: 45% !important;
+    /*No seleccionable*/
+    -moz-user-select: none; 
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+form .btn__group>input[name="btn_consultar"]{
+    width: 30%;
+
+}
+form .btn__group>input[name="btn_registrar"]{
+    width: 30%;
+    background: #FABD00;
+}
+
+form .form-group .input__text{
+    max-width: 45% !important;
+}
+
+
+/*------Botones-------*/
+
+form .btn{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    background:#143264;
+    margin-bottom: 35px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    outline: medium none;
+    cursor: pointer;
+}
+form .btn:hover{
+    opacity: 0.35;
+}
+
+.btn__nuevo{
+    float: right;
+    background: #FABD00 !important;
+}
+
+.btn__group{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.btn__primary{
+    background: rgb(3, 113, 163);
+}
+.btn__danger{
+    background: #8a0505 !important;
+}
+
+.btn__group__center{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* table */
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table .head{
+    background: #143264;
+}
+table .head td{
+    color: #fff;
+    /* font-family: 'Arial',sans-serif; */
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+table tr td{
+    border:1px solid #ccc;
+    padding: 7px;
+    font-size: 14px;
+    color: #555;
+}
+table tr td.Opcion{
+    text-align: center;
+}
+
+.btn__update{
+    display: inline-block;
+    font-size: 14px;
+    background: #FABD00;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.btn__update:hover{
+    opacity: 0.35;
+}
+
+.btn__delete{
+    display: inline-block;
+    font-size: 14px;
+    background: #8a0505;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.btn__delete:hover{
+    opacity: 0.35;
+}
+

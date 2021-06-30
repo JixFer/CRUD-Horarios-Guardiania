@@ -1,0 +1,10 @@
+body{
+    color: black;
+}
+.contenedor>h1{
+    margin-top: 5%;
+}
+.contenedor-horario{
+    width: 1180px !important;
+    margin: 0 auto !important;
+}

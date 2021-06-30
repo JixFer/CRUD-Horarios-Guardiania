@@ -1,0 +1,64 @@
+/*Encabezado de ingresar*/
+.formulario{
+    background: #f2f2f2;
+    display: flex;
+}
+.formulario .contenedor{
+    color: black;
+    margin: 0px auto;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    padding-left: 8%;
+}
+#Img{
+    margin-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+table{
+    border-spacing: 25px;
+}
+[type="submit"]{
+    background: #09162c;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+}
+[type="submit"]:hover{
+    background: #007fbb;
+    cursor: pointer;
+}
+.encabezado nav ul li#Ingresar{
+	background: #1D0D6C;
+}
+span{
+    color: rgb(242, 242, 242);
+    background: #d99601;
+    display: block;
+    margin: 15px 30px;
+    width: max-content;
+    padding: 5px;
+    user-select: none;
+}
+span.Error{
+    float:right;
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    z-index: 1;
+    background: rgba(148, 27, 27, 0.267);
+}
+
+/*OLVIDE MI CONTRASEÑA*/
+.contenedor a.Contraseña{
+    margin-left: 20px;
+    color: #09162ca6;
+	padding: 4px;
+	text-decoration: none;
+    text-decoration: underline;
+}
+.contenedor a.Contraseña:hover{
+    text-decoration: none;
+    color: rgb(254, 0, 0);
+}
