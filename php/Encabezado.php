@@ -10,6 +10,7 @@
 </head>
 <body>
 <header>
+
     <img src="../images/logo.png" alt="Logo de centiseg" width="100">
     <span>Administracion y gestion del personal</span>
     <p><a href="Ingresar.php">Cerrar sesión</a></p>
